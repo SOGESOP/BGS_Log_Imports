@@ -1,0 +1,343 @@
+INFO:root:['BGS_borehole_downloader.py', 'boreholes_downloaded.xlsx', 'boreholes_missing_info.xlsx', 'GeoIndexData.txt', 'Boreholes', 'BGS_import_log.log'], D:\BGS_working\run_folder\Boreholes
+INFO:root:                                              Record  REFERENCE                                               NAME WATER_WELL_REF  Precision  ... YEAR_KNOWN  EASTING  NORTHING  SCAN_QUALITY                                        AGS_LOG_URL
+0                                      Not available  SK47SE309  MARKHAM EMPLOYMENT GROWTH ZONE (MEGZ) - PLOT 1...            NaN  undefined  ...     2007.0   445123    371717   not Entered  https://webservices.bgs.ac.uk/GWBV/viewborehol...
+1                                      Not available  SK47SE274  MARKHAM EMPLOYMENT GROWTH ZONE (MEGZ) - PLOT 1...            NaN  undefined  ...     2007.0   445128    371788   not Entered  https://webservices.bgs.ac.uk/GWBV/viewborehol...
+2  <a href='https://api.bgs.ac.uk/sobi-scans/v1/b...   SK47SE42                MARKHAM DRIFT MOUTH NO.2 SURFACE BH            NaN  undefined  ...     1971.0   445133    371941   not Entered                                                NaN
+3                                      Not available  SK47SE275  MARKHAM EMPLOYMENT GROWTH ZONE (MEGZ) - PLOT 1...            NaN  undefined  ...     2007.0   445140    371776   not Entered  https://webservices.bgs.ac.uk/GWBV/viewborehol...
+4                                      Not available  SK47SE312  MARKHAM EMPLOYMENT GROWTH ZONE (MEGZ) - PLOT 1...            NaN  undefined  ...     2007.0   445143    371541   not Entered  https://webservices.bgs.ac.uk/GWBV/viewborehol...
+5  <a href='https://api.bgs.ac.uk/sobi-scans/v1/b...   SK47SE44                MARKHAM DRIFT MOUTH NO.4 SURFACE BH            NaN  undefined  ...     1971.0   445154    371898   not Entered                                                NaN
+6                                      Not available  SK47SE333  MARKHAM EMPLOYMENT GROWTH ZONE (MEGZ) - PLOT 1...            NaN  undefined  ...        NaN   445159    371851   not Entered                                                NaN
+7                                      Not available  SK47SE227  MARKHAM EMPLOYMENT GROWTH ZONE (MEGZ) - PLOT 1...            NaN  undefined  ...     2007.0   445167    371579   not Entered  https://webservices.bgs.ac.uk/GWBV/viewborehol...
+8                                      Not available  SK47SE311  MARKHAM EMPLOYMENT GROWTH ZONE (MEGZ) - PLOT 1...            NaN  undefined  ...     2007.0   445183    371596   not Entered  https://webservices.bgs.ac.uk/GWBV/viewborehol...
+9  <a href='https://shop.bgs.ac.uk/Shop/Departmen...   SK47SE47                MARKHAM DRIFT MOUTH NO.7 SURFACE BH            NaN  undefined  ...        NaN   445192    371872   not Entered                                                NaN
+
+[10 rows x 11 columns]
+INFO:root:1089, (99, 11)
+INFO:root:D:\BGS_working\run_folder\Boreholes
+INFO:root:['SK47SE309', 'SK47SE274', 'SK47SE275', 'SK47SE312', 'SK47SE333', 'SK47SE227', 'SK47SE311', 'SK47SE340', 'SK47SE290', 'SK47SE289', 'SK47SE314', 'SK47SE224', 'SK47SE322', 'SK47SE291', 'SK47SE222', 'SK47SE323', 'SK47SE341', 'SK47SE273', 'SK47SE225', 'SK47SE281', 'SK47SE221', 'SK47SE288', 'SK47SE10/C'] has been removed from datatbase as PDF link missing
+INFO:root:23 boreholes removed.
+INFO:root:1692887787.2949107 time begins
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/728375 HTTP/1.1" 200 167636
+DEBUG:root:SK47SE42_23.77.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/728377 HTTP/1.1" 200 176032
+DEBUG:root:SK47SE44_27.43.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): shop.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://shop.bgs.ac.uk:443 "GET /Shop/Department/GeoRecords HTTP/1.1" 200 None
+DEBUG:root:SK47SE47_Confidential.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/767630 HTTP/1.1" 200 170210
+DEBUG:root:SK47SW139_7.62.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/19511309 HTTP/1.1" 200 128789
+DEBUG:root:SK47SW353_2.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/19511310 HTTP/1.1" 200 135530
+DEBUG:root:SK47SW354_3.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/18913669 HTTP/1.1" 200 131024
+DEBUG:root:SK47SW334_2.95.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/18913902 HTTP/1.1" 200 138684
+DEBUG:root:SK47SW339_5.26.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/18913901 HTTP/1.1" 200 133593
+DEBUG:root:SK47SW338_4.37.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/18913671 HTTP/1.1" 200 129580
+DEBUG:root:SK47SW336_1.8.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/19511311 HTTP/1.1" 200 128251
+DEBUG:root:SK47SW355_1.7.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/19511313 HTTP/1.1" 200 127007
+DEBUG:root:SK47SW357_2.2.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/19511312 HTTP/1.1" 200 127124
+DEBUG:root:SK47SW356_0.8.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/767631 HTTP/1.1" 200 158972
+DEBUG:root:SK47SW140_12.19.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/18913905 HTTP/1.1" 200 204822
+DEBUG:root:SK47SW342_20.8.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/767632 HTTP/1.1" 200 160777
+DEBUG:root:SK47SW141_18.59.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/767633 HTTP/1.1" 200 170655
+DEBUG:root:SK47SW142_15.24.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/19511306 HTTP/1.1" 200 164090
+DEBUG:root:SK47SW350_12.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/767513 HTTP/1.1" 200 825061
+DEBUG:root:SK47SW23_63.09.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/767531 HTTP/1.1" 200 506682
+DEBUG:root:SK47SW40_17.05.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/767713 HTTP/1.1" 200 159722
+DEBUG:root:SK47SW222_5.4.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/767520 HTTP/1.1" 200 377124
+DEBUG:root:SK47SW29_288.65.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/767715 HTTP/1.1" 200 158705
+DEBUG:root:SK47SW224_8.05.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/767714 HTTP/1.1" 200 161508
+DEBUG:root:SK47SW223_6.3.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/767717 HTTP/1.1" 200 155725
+DEBUG:root:SK47SW226_3.5.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/767716 HTTP/1.1" 200 155234
+DEBUG:root:SK47SW225_6.05.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/767545 HTTP/1.1" 200 271968
+DEBUG:root:SK47SW54_14.31.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/18962253 HTTP/1.1" 200 210074
+DEBUG:root:SK47SW347_54.3.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/767718 HTTP/1.1" 200 157278
+DEBUG:root:SK47SW227_5.1.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/767540 HTTP/1.1" 200 260565
+DEBUG:root:SK47SW49_9.6.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/19366578 HTTP/1.1" 200 177063
+DEBUG:root:SK47SW348_42.5.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/767521 HTTP/1.1" 200 198987
+DEBUG:root:SK47SW30_Unknown.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/767514 HTTP/1.1" 200 890027
+DEBUG:root:SK47SW24_59.13.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/767541 HTTP/1.1" 200 158062
+DEBUG:root:SK47SW50_115.21.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/767528 HTTP/1.1" 200 162851
+DEBUG:root:SK47SW37_10.06.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/728386 HTTP/1.1" 200 282266
+DEBUG:root:SK47SE53_11.4.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/728351 HTTP/1.1" 200 613945
+DEBUG:root:SK47SE18_125.88.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/728478 HTTP/1.1" 200 987129
+DEBUG:root:SK47SE145_59.13.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/728395 HTTP/1.1" 200 236228
+DEBUG:root:SK47SE62_Unknown.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/224102 HTTP/1.1" 200 227718
+ERROR:root:['SK46NE5/E_32.3.pdf'] have not been downloaded
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/728396 HTTP/1.1" 200 178129
+DEBUG:root:SK47SE63_8.95.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/224151 HTTP/1.1" 200 2375157
+DEBUG:root:SK46NE47_78.48.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/224158 HTTP/1.1" 200 202637
+DEBUG:root:SK46NE54_370.33.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/728394 HTTP/1.1" 200 225457
+DEBUG:root:SK47SE61_Unknown.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/224122 HTTP/1.1" 200 2129592
+DEBUG:root:SK46NE18_210.01.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/224153 HTTP/1.1" 200 2223683
+DEBUG:root:SK46NE49_12.07.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/224101 HTTP/1.1" 200 236119
+ERROR:root:['SK46NE5/E_32.3.pdf', 'SK46NE5/D_29.56.pdf'] have not been downloaded
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/224117 HTTP/1.1" 200 665258
+DEBUG:root:SK46NE13_328.51.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/224137 HTTP/1.1" 200 1869357
+DEBUG:root:SK46NE33_450.52.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/728490 HTTP/1.1" 200 1202034
+DEBUG:root:SK47SE157_707.47.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/728391 HTTP/1.1" 200 425534
+DEBUG:root:SK47SE58_155.34.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/728489 HTTP/1.1" 200 2057247
+DEBUG:root:SK47SE156_692.6.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/19392529 HTTP/1.1" 200 143041
+DEBUG:root:SK47SE191_339.13.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/728381 HTTP/1.1" 200 127415
+DEBUG:root:SK47SE48_Unknown.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/728488 HTTP/1.1" 200 1684586
+DEBUG:root:SK47SE155_361.58.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/224168 HTTP/1.1" 200 150195
+DEBUG:root:SK46NE64_40.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/224152 HTTP/1.1" 200 2247055
+DEBUG:root:SK46NE48_41.48.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/728389 HTTP/1.1" 200 574225
+DEBUG:root:SK47SE56_142.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/224160 HTTP/1.1" 200 496417
+DEBUG:root:SK46NE56_82.5.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/754088 HTTP/1.1" 200 153312
+DEBUG:root:SK46NW213_2.6.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/753896 HTTP/1.1" 200 4813239
+DEBUG:root:SK46NW21_384.35.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/18913896 HTTP/1.1" 200 185911
+DEBUG:root:SK46NE191_20.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/224176 HTTP/1.1" 200 233982
+DEBUG:root:SK46NE72_4.88.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/19511268 HTTP/1.1" 200 127853
+DEBUG:root:SK46NE204_2.1.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/19511269 HTTP/1.1" 200 129143
+DEBUG:root:SK46NE205_2.3.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/224177 HTTP/1.1" 200 621282
+DEBUG:root:SK46NE73_21.34.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/224178 HTTP/1.1" 200 483862
+DEBUG:root:SK46NE74_14.78.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/19511265 HTTP/1.1" 200 164278
+DEBUG:root:SK46NE201_12.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/18913897 HTTP/1.1" 200 168209
+DEBUG:root:SK46NE192_15.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/20316012 HTTP/1.1" 200 193751
+DEBUG:root:SK46NE227_3.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/224099 HTTP/1.1" 200 220779
+ERROR:root:['SK46NE5/E_32.3.pdf', 'SK46NE5/D_29.56.pdf', 'SK46NE5/B_29.pdf'] have not been downloaded
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/19511301 HTTP/1.1" 200 131905
+DEBUG:root:SK46NW347_3.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/19511270 HTTP/1.1" 200 132606
+DEBUG:root:SK46NE206_3.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/18913964 HTTP/1.1" 200 187132
+DEBUG:root:SK46NW328_24.51.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/753891 HTTP/1.1" 200 497651
+DEBUG:root:SK46NW16_57.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/19511302 HTTP/1.1" 200 130916
+DEBUG:root:SK46NW348_1.7.pdf opened.
+INFO:root:PDF Downloaded
+INFO:root:5.6249547600746155 is total runtime in minutes
+ERROR:root:error has occured while running download for SK46NW348_1.7.pdf
+Traceback (most recent call last):
+  File "D:\BGS_working\run_folder\BGS_borehole_downloader.py", line 210, in running_downloads
+    self.erorrs_df.to_excel(f'{os.getcwd}/boreholes_not_downloaded.xlsx')
+  File "C:\Users\OGONAHT\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\core\generic.py", line 2252, in to_excel
+    formatter.write(
+  File "C:\Users\OGONAHT\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\io\formats\excel.py", line 934, in write
+    writer = ExcelWriter(  # type: ignore[abstract]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\OGONAHT\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\io\excel\_openpyxl.py", line 60, in __init__
+    super().__init__(
+  File "C:\Users\OGONAHT\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\io\excel\_base.py", line 1219, in __init__
+    self._handles = get_handle(
+                    ^^^^^^^^^^^
+  File "C:\Users\OGONAHT\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\io\common.py", line 737, in get_handle
+    check_parent_directory(str(handle))
+  File "C:\Users\OGONAHT\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pandas\io\common.py", line 600, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: '<built-in function getcwd>'

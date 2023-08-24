@@ -1,0 +1,40 @@
+INFO:root:['GeoIndexData.txt', 'boreholes_downloaded.xlsx', 'boreholes_not_downloaded.xlsx', 'Boreholes', 'BGS_import_log.log', 'BGS_borehole_downloader.exe'], D:\BGS_working\dist\Boreholes
+INFO:root:                                              Record  REFERENCE  ... SCAN_QUALITY AGS_LOG_URL
+0  <a href='https://api.bgs.ac.uk/sobi-scans/v1/b...   SK47SE55  ...  not Entered         NaN
+1  <a href='https://api.bgs.ac.uk/sobi-scans/v1/b...   SK47SE82  ...  not Entered         NaN
+2  <a href='https://api.bgs.ac.uk/sobi-scans/v1/b...  SK47SE199  ...  not Entered         NaN
+3  <a href='https://api.bgs.ac.uk/sobi-scans/v1/b...  SK47SW365  ...  not Entered         NaN
+4  <a href='https://api.bgs.ac.uk/sobi-scans/v1/b...  SK47SW364  ...  not Entered         NaN
+5  <a href='https://api.bgs.ac.uk/sobi-scans/v1/b...   SK47SE36  ...  not Entered         NaN
+6  <a href='https://api.bgs.ac.uk/sobi-scans/v1/b...  SK47SW147  ...  not Entered         NaN
+7  <a href='https://api.bgs.ac.uk/sobi-scans/v1/b...   SK47SE96  ...  not Entered         NaN
+8  <a href='https://api.bgs.ac.uk/sobi-scans/v1/b...  SK47SE195  ...  not Entered         NaN
+9  <a href='https://api.bgs.ac.uk/sobi-scans/v1/b...   SK47SE83  ...  not Entered         NaN
+
+[10 rows x 11 columns]
+INFO:root:10780, (980, 11)
+INFO:root:D:\BGS_working\dist\Boreholes
+INFO:root:['SK47SW444', 'SK47SE244', 'SK47SE216', 'SK47SE245', 'SK47SE212', 'SK47SE217', 'SK47SE246', 'SK47SE218', 'SK47SE211', 'SK47SE247', 'SK47SE248', 'SK47SE209', 'SK47SE219', 'SK47SW445', 'SK47SE249', 'SK47SE210', 'SK47SE220', 'SK47SE208', 'SK47SW439', 'SK47SE207', 'SK47SE297', 'SK47SE206', 'SK47SE307', 'SK47SE298', 'SK47SE215', 'SK47SE300', 'SK47SE301', 'SK47SE268', 'SK47SE303', 'SK47SE306', 'SK47SE254', 'SK47SE253', 'SK47SE252', 'SK47SE302', 'SK47SE250', 'SK47SE251', 'SK47SE260', 'SK47SE299', 'SK47SE263', 'SK47SE255', 'SK47SE304', 'SK47SE257', 'SK47SE269', 'SK47SE258', 'SK47SE259', 'SK47SE266', 'SK47SE267', 'SK47SE264', 'SK47SE308', 'SK47SW442', 'SK47SW441', 'SK47SW440', 'SK47SE213', 'SK47SE242', 'SK47SE214', 'SK47SE256', 'SK47SE261', 'SK47SE243', 'SK47SE262', 'SK47SE277', 'SK47SE316', 'SK47SE235', 'SK47SE283', 'SK47SE278', 'SK47SE295', 'SK47SE328', 'SK47SE294', 'SK47SE347', 'SK47SE329', 'SK47SE317', 'SK47SE285', 'SK47SE229', 'SK47SE230', 'SK47SE344', 'SK47SE296', 'SK47SE334', 'SK47SE335', 'SK47SE319', 'SK47SE330', 'SK47SE332', 'SK47SE284', 'SK47SE286', 'SK47SE305', 'SK47SE265', 'SK47SE318', 'SK47SE271', 'SK47SE272', 'SK47SE270', 'SK47SE331', 'SK47SE241', 'SK47SE321', 'SK47SE239', 'SK47SE324', 'SK47SE352', 'SK47SE351', 'SK47SE339', 'SK47SE240', 'SK47SE231', 'SK47SE226', 'SK47SE292', 'SK47SE350', 'SK47SE315', 'SK47SE238', 'SK47SE325', 'SK47SE349', 'SK47SE237', 'SK47SE232', 'SK47SE338', 'SK47SE348', 'SK47SE236', 'SK47SE282', 'SK47SE279', 'SK47SE233', 'SK47SE326', 'SK47SE293', 'SK47SE310', 'SK47SE345', 'SK47SE228', 'SK47SE234', 'SK47SE327', 'SK47SW11/B', 'SK47SW11/C', 'SK47SW443', 'SK47SE280', 'SK47SE342', 'SK47SE337', 'SK47SE313', 'SK47SE320', 'SK47SE343', 'SK47SE346', 'SK47SE287', 'SK47SE223', 'SK47SE336', 'SK47SE276', 'SK47SE309', 'SK47SE274', 'SK47SE275', 'SK47SE312', 'SK47SE333', 'SK47SE227', 'SK47SE311', 'SK47SE340', 'SK47SE290', 'SK47SE289', 'SK47SE314', 'SK47SE224', 'SK47SE322', 'SK47SE291', 'SK47SE222', 'SK47SE323', 'SK47SE341', 'SK47SE273', 'SK47SE225', 'SK47SE281', 'SK47SE221', 'SK47SE288', 'SK47SE10/C', 'SK45NE357', 'SK45NE32/B', 'SK45NE356', 'SK46SE9/B', 'SK46SE9/A'] has been removed from datatbase as PDF link missing
+INFO:root:162 boreholes removed.
+INFO:root:1692879310.8341565 time begins
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/728388 HTTP/1.1" 200 585007
+DEBUG:root:SK47SE55_51.13.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/728415 HTTP/1.1" 200 157631
+DEBUG:root:SK47SE82_74.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/19511334 HTTP/1.1" 200 128360
+DEBUG:root:SK47SE199_2.1.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/19511323 HTTP/1.1" 200 131185
+DEBUG:root:SK47SW365_3.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
+DEBUG:urllib3.connectionpool:https://api.bgs.ac.uk:443 "GET /sobi-scans/v1/borehole/scans/items/19511321 HTTP/1.1" 200 127069
+DEBUG:root:SK47SW364_0.4.pdf opened.
+INFO:root:PDF Downloaded
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): api.bgs.ac.uk:443
